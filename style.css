@@ -1,0 +1,40 @@
+* {
+  background-color: rgb(252, 252, 252);
+}
+.logo-boat {
+  width: 150px;
+  height: 80px;
+}
+.head-point {
+  text-align: center;
+}
+.boo {
+  font-weight: bold;
+}
+.bi-person {
+  margin-right: 10px;
+}
+
+.form-control {
+  padding-left: 50px;
+  border-radius: 20px;
+}
+.dropdown-menu {
+}
+.banner {
+  margin-top: 200px;
+}
+.text-banner {
+  margin-left: 100px;
+}
+.text-1 {
+  font-size: 100px;
+  font-weight: 120;
+}
+.text-2 {
+  font-weight: bold;
+}
+#banner-image {
+  width: 200px;
+  height: 200px;
+}
