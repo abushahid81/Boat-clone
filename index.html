@@ -41,17 +41,20 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown fw-5">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle nav-hover"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Categories
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -62,18 +65,24 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item fw-5">
+                <a class="nav-link nav-hover" href="#">boAt Personalisation</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item fw-5">
+                <a class="nav-link nav-hover" href="#">Gift with boAt</a>
+              </li>
+              <li class="nav-item fw-5">
+                <a class="nav-link nav-hover" href="#">Corporate Orders</a>
+              </li>
+              <li class="nav-item dropdown fw-5">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle nav-hover"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  More
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -86,24 +95,18 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="30"
-                fill="currentColor"
-                class="bi bi-search"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+              <div class="input-group mb-3 me-5">
+                <span class="input-group-text search-1" id="basic-addon1"
+                  ><img src="images/search.svg" alt=""
+                /></span>
+                <input
+                  type="text"
+                  class="form-control search-1"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
                 />
-              </svg>
-              <input
-                class="form-control"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
+              </div>
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
@@ -135,21 +138,37 @@
       </nav>
     </header>
     <section>
-      <div class="container-fluid banner">
-        <div class="row">
-          <div class="col-lg-6 text-banner">
-            <h2 class="text-1">
-              True Wireless<br /><span class="text-2">Earbuds</span>
-            </h2>
-            <h4 class="text-3">Starting from ₹999</h4>
+      <!-- demo -->
+      <div class="container-fluid">
+        <div class="row back-color">
+          <div class="col-6 text-banner">
+            <p class="text-1">
+              True Wireless<br /><span class="text-2"
+                ><strong>Earbuds</strong></span
+              >
+            </p>
+            <p class="text-3">
+              Starting from <span class="price-1"><strong>₹999*</strong></span>
+            </p>
+            <button type="button" class="btn btn-dark button-1">
+              <a href="#" class="text-white">Shop Products</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-arrow-right-circle pb-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                />
+              </svg>
+            </button>
           </div>
-          <div class="col-lg-6 banner">
-            <img
-              src="images/boat.jpg"
-              class="img-fluid"
-              alt="boat"
-              id="banner-image"
-            />
+          <div class="col-4 text-banner-2">
+            <img src="images/banner.png" alt="boat" class="banner-image" />
           </div>
         </div>
       </div>
