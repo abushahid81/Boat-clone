@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
   font-family: "Gill Sans", sans-serif;
 }
+.boder-1 {
+  border-top: 2px solid #ccc;
+}
 a {
   text-decoration: none;
   color: black;
@@ -35,10 +38,10 @@ li:hover:after {
 .head-point {
   text-align: center;
   margin-top: 10px;
-  /* background-color: gray; */
 }
 .back-color {
   background-color: #ebf8ff;
+  /* margin-bottom: 50px; */
 }
 .boo {
   font-weight: bold;
@@ -72,27 +75,98 @@ li:hover:after {
   margin-top: 100px;
   margin-left: 100px;
 }
+.text-banner-3 {
+  background: linear-gradient(to bottom, #ffffff 50%, #ffffcc 100%);
+}
+.text-banner-4 {
+}
 .text-1 {
   margin-top: 150px;
   font-size: 100px;
   font-weight: 100px;
 }
-/* .text-2 {
-  font-weight: bold;
-} */
+.text-2 {
+  margin-top: 150px;
+  font-size: 100px;
+  font-weight: 100px;
+  gap: 2px;
+}
 .text-3 {
   font-size: 30px;
+}
+.text-4 {
+  margin-top: 300px;
+  margin-left: -200px;
+  font-size: 100px;
+  font-weight: 100px;
+}
+.text-5 {
+  font-size: 50px;
+  margin-top: -40px;
 }
 .banner-image {
   width: 600px;
   height: 600px;
 }
-/* .price-1 {
+.banner-image-2 {
+  width: 900px;
+  height: 900px;
+}
+.main-1 {
   font-weight: bold;
-} */
+}
+.price-2 {
+  font-weight: bold;
+  opacity: 0.3;
+  text-decoration: line-through;
+}
 .form-control {
   font-size: 20px;
 }
 .button-1 {
   border-radius: 15px;
+}
+.button-2 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.button-3 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.button-4 {
+  margin-left: 280px;
+  border-radius: 15px;
+}
+.seller-1 {
+  font-weight: bold;
+}
+.seller-2 {
+  font-weight: bold;
+  border-bottom: 3px solid #e40606;
+}
+.Price-card {
+  display: flex;
+}
+.discount-1 {
+  color: rgb(131, 227, 195);
+  font-size: 18px;
+  font-weight: bold;
+}
+.buds {
+  font-weight: 900;
+}
+.border-img {
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 20px;
+  background-color: rgb(226, 226, 79);
+  font-weight: 700;
+}
+.border-chg {
+  position: absolute;
+  padding-right: 20px;
+  margin-top: 20px;
+  background-color: #17191a;
+  color: #ccc;
 }
