@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .back-color {
+    background-color: #ebf8ff;
+    /* margin-bottom: 50px; */
+  }
+  .text-1 {
+    margin-top: 100px;
+    margin-right: -120px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .text-2 {
+    font-size: 70px;
+    text-align: center;
+  }
+  .text-3 {
+    margin-right: -116px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .button-cnt {
+    margin-left: 36px;
+    padding-right: 12px;
+  }
+  .banner-image-2 {
+    width: 520px;
+    height: 482px;
+  }
+  .text-4 {
+    font-size: 65px;
+  }
+}

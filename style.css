@@ -174,7 +174,7 @@ li:hover:after {
   border-radius: 15px;
 }
 .button-2 {
-  padding-left: 40px;
+  padding-left: 35px;
   padding-right: 40px;
   font-weight: 300;
 }
@@ -198,9 +198,9 @@ li:hover:after {
   font-weight: bold;
   border-bottom: 3px solid #e40606;
 }
-.Price-card {
+/* .Price-card {
   display: flex;
-}
+} */
 .discount-1 {
   color: rgb(131, 227, 195);
   font-size: 18px;
