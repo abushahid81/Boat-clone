@@ -105,8 +105,10 @@ li:hover:after {
   margin-top: -40px;
 }
 .banner-image {
-  width: 600px;
-  height: 600px;
+  margin-top: -220px;
+  margin-left: -250px;
+  width: 950px;
+  height: 950px;
 }
 .banner-image-2 {
   width: 900px;
@@ -127,8 +129,8 @@ li:hover:after {
   border-radius: 15px;
 }
 .button-2 {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .button-3 {
   padding-left: 40px;
@@ -169,4 +171,7 @@ li:hover:after {
   margin-top: 20px;
   background-color: #17191a;
   color: #ccc;
+}
+.card-ht {
+  margin-top: 12px;
 }
