@@ -8,6 +8,9 @@ body {
 .boder-1 {
   border-top: 2px solid #ccc;
 }
+/* .boder-1 {
+  border-top: 2px solid #ccc;
+} */
 a {
   text-decoration: none;
   color: black;
@@ -34,6 +37,64 @@ li:hover:after {
 .logo-boat {
   width: 150px;
   height: 80px;
+}
+/* text */
+.text-banner {
+  margin-left: 50px;
+}
+.text-banner-2 {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.text-banner-3 {
+  background: linear-gradient(to bottom, #ffffff 50%, #ffffcc 100%);
+}
+.text-banner-4 {
+  background: linear-gradient(to bottom, #ffffff 35%, #ffccff 100%);
+}
+.text-1 {
+  margin-top: 150px;
+  font-size: 100px;
+  font-weight: 100px;
+}
+.text-2 {
+  margin-top: 150px;
+  font-size: 100px;
+  font-weight: 100px;
+  gap: 2px;
+}
+.text-3 {
+  font-size: 30px;
+}
+.text-4 {
+  margin-top: 300px;
+  margin-left: -200px;
+  font-size: 100px;
+  font-weight: 100px;
+}
+.text-5 {
+  font-size: 30px;
+  margin-top: -40px;
+  margin-left: 190px;
+}
+.text-6 {
+  font-size: 50px;
+  margin-top: -40px;
+}
+.text-7 {
+  margin-top: 150px;
+  font-size: 100px;
+  font-weight: 100px;
+}
+.text-8 {
+  margin-top: 150px;
+  margin-left: 80px;
+  font-size: 100px;
+  font-weight: 100px;
+}
+.text-9 {
+  font-size: 30px;
+  margin-left: 80px;
 }
 .head-point {
   text-align: center;
@@ -64,46 +125,13 @@ li:hover:after {
   border-radius: 20px;
 }
 .dropdown-menu {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 /* .banner {
   margin-top: 50px;
 } */
-.text-banner {
-  margin-left: 50px;
-}
-.text-banner-2 {
-  margin-top: 100px;
-  margin-left: 100px;
-}
-.text-banner-3 {
-  background: linear-gradient(to bottom, #ffffff 50%, #ffffcc 100%);
-}
-.text-banner-4 {
-}
-.text-1 {
-  margin-top: 150px;
-  font-size: 100px;
-  font-weight: 100px;
-}
-.text-2 {
-  margin-top: 150px;
-  font-size: 100px;
-  font-weight: 100px;
-  gap: 2px;
-}
-.text-3 {
-  font-size: 30px;
-}
-.text-4 {
-  margin-top: 300px;
-  margin-left: -200px;
-  font-size: 100px;
-  font-weight: 100px;
-}
-.text-5 {
-  font-size: 50px;
-  margin-top: -40px;
-}
+
 .banner-image {
   margin-top: -220px;
   margin-left: -250px;
@@ -114,6 +142,18 @@ li:hover:after {
   width: 900px;
   height: 900px;
 }
+.banner-image-3 {
+  margin-top: 20px;
+  margin-left: -10px;
+  width: 650px;
+  height: 650px;
+}
+/* .banner-image-4 {
+  margin-top: -70px;
+  margin-left: -260px;
+  width: 700px;
+  height: 700px;
+} */
 .main-1 {
   font-weight: bold;
 }
@@ -122,23 +162,34 @@ li:hover:after {
   opacity: 0.3;
   text-decoration: line-through;
 }
+.price-3 {
+  margin-left: 10px;
+}
+
 .form-control {
   font-size: 20px;
 }
+/* button */
 .button-1 {
   border-radius: 15px;
 }
 .button-2 {
   padding-left: 40px;
   padding-right: 40px;
+  font-weight: 300;
 }
 .button-3 {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 30px;
+  font-weight: 300;
 }
 .button-4 {
   margin-left: 280px;
   border-radius: 15px;
+}
+.button-5 {
+  border-radius: 15px;
+  margin-left: 70px;
 }
 .seller-1 {
   font-weight: bold;
